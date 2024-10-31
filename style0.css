@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: aliceblue;
+}
+
+.header{
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    background-color: black;
+}
+
+#menu li a{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin: 5px 0px;
+    transition: all 0.3s ease;
+}
+
+#menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    transition: all 1s ease;
+}
+
+#menu li a:hover{
+    background-color: #000;
+    color: #fff;
+
+}
