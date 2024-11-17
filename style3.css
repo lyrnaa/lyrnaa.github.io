@@ -7,7 +7,6 @@ body{
 
 }
 
-
 #calculator{
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
@@ -25,9 +24,7 @@ body{
     background-color: hsl(0, 0%, 30%);
     color: white;
     font-family: 'Courier New', Courier, monospace;
-
 }
-
 
 #keys{
     display: grid;
@@ -35,7 +32,6 @@ body{
     gap: 10px;
     padding: 25px;
 }
-
 
 button{
     width: 100px;
@@ -56,7 +52,6 @@ button:hover{
 
 button:active{
     background-color: hsl(0, 0%, 50%);
-
 }
 
 .operator-btn{
